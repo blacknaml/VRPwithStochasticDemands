@@ -2,22 +2,22 @@
 VRP adalah masalah optimasi klasik dalam logistik dan rantai pasok. Tujuannya adalah merencanakan rute optimal untuk armada kendaraan yang berangkat dari satu atau lebih gudang (depot) untuk melayani sekelompok pelanggan, lalu kembali lagi ke depot.
 
 Tujuan utamanya biasanya adalah untuk:
-    Meminimalkan total jarak tempuh
-    Meminimalkan total biaya operasional
-    Meminimalkan jumlah kendaraan yang digunakan
-    Memaksimalkan kepuasan pelanggan
+- Meminimalkan total jarak tempuh
+- Meminimalkan total biaya operasional
+- Meminimalkan jumlah kendaraan yang digunakan
+- Memaksimalkan kepuasan pelanggan
 
 Dalam VRP klasik, semua informasi dianggap sudah pasti dan diketahui sejak awal, termasuk:
-    Lokasi depot dan pelanggan.
-    Kapasitas setiap kendaraan.
-    Permintaan (demand) atau jumlah barang yang dibutuhkan oleh setiap pelanggan.
+- Lokasi depot dan pelanggan.
+- Kapasitas setiap kendaraan.
+- Permintaan (demand) atau jumlah barang yang dibutuhkan oleh setiap pelanggan.
 
 ## Vehicle routing problem with stochastic demands (VRPSD)
 VRPSD adalah varian dari VRP di mana permintaan pelanggan bersifat acak atau tidak pasti (stokastik). Artinya, perusahaan tidak tahu persis berapa banyak barang yang akan dibutuhkan oleh pelanggan, melainkan hanya tahu distribusi probabilitas dari permintaannya. Permintaan yang pasti baru diketahui saat kendaraan benar-benar tiba di lokasi pelanggan.
 
 Tujuan dari VRPSD bukan lagi hanya meminimalkan jarak, tetapi juga meminimalkan biaya total yang diharapkan. Biaya ini mencakup:
-    Biaya perjalanan standar.
-    Biaya tambahan atau penalti akibat kegagalan rute (misalnya, biaya karena harus kembali ke gudang, biaya kehilangan pelanggan, atau biaya keterlambatan).
+- Biaya perjalanan standar.
+- Biaya tambahan atau penalti akibat kegagalan rute (misalnya, biaya karena harus kembali ke gudang, biaya kehilangan pelanggan, atau biaya keterlambatan).
 
 ## Hasil Pengetesan dengan data jarak nyata
 ### Tes 1
